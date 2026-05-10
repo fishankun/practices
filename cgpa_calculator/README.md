@@ -6,7 +6,7 @@ A simple C program that calculates the CGPA of a student based on marks in multi
 
 ## 📌 Features
 
-- Takes marks input for 7 university subjects
+- Takes marks input for 7 university courses.
 - Converts marks into GPA using a fixed grading scale
 - Uses credit weighting for each subject
 - Calculates final CGPA automatically
