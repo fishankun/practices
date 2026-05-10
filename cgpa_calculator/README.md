@@ -52,9 +52,7 @@ A simple C program that calculates the CGPA of a student based on marks in multi
 
 ## 🧮 CGPA Formula
 
-\[
-CGPA = \frac{\sum (GPA \times Credit)}{\sum Credits}
-\]
+CGPA = (Σ GPA × Credit) / (Σ Credits)
 
 ---
 
