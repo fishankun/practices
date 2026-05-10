@@ -39,13 +39,13 @@ int main(){
 	if(cart_value - dis >= cp_to_tk){
 		total_dis = cp_to_tk + dis;
 		payable = cart_value - total_dis;
-		new_cp = (cart_value / 10) * 4;
+		new_cp = cart_value * 0.4;
 	}
 	else{
 		payable = 0;
 		total_dis = cart_value;
 		remaining_cp = (cp_to_tk - (cart_value - dis)) * 40;
-		earned_cp = (cart_value / 10) * 4;
+		earned_cp = cart_value * 0.4;
 		new_cp = remaining_cp + earned_cp;
 	}
 
